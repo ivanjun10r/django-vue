@@ -1,15 +1,21 @@
 {% load static %}
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Testing Vue</title>
-</head>
-<body>
-  <h1>Testing Vue...</h1>
-  <div id="app"></div>
-  <script type="text/javascript" src="{% static 'src/vue/dist/js/chunk-vendors.js' %}"></script>
-  <script type="text/javascript" src="{% static 'src/vue/dist/js/app.js' %}"></script>
-  <link href="{% static 'src/vue/dist/css/app.css' %}" rel=stylesheet>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Testing Vue</title>
+  </head>
+  <body>
+    <h1>Testing Vue...</h1>
+    <div id="app"></div>
+    <script
+      type="text/javascript"
+      src="{% static 'src/vue/dist/js/chunk-vendors.js' %}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'src/vue/dist/js/app.js' %}"
+    ></script>
+    <link href="{% static 'src/vue/dist/css/app.css' %}" rel="stylesheet" />
+  </body>
 </html>

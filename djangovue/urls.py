@@ -20,5 +20,6 @@ import app.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vue-test', app.views.vue_test),
+    path('vue-test/', app.views.vue_test),
+    path('blog/', app.views.blog_view),
 ]
